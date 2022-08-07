@@ -1,10 +1,23 @@
 {
   "name": "@i31pc17/express-param",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "express param",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "unbuild",
+    "test": "node test/index.mjs"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +25,6 @@
   "devDependencies": {
     "@types/lodash": "^4.14.182",
     "lodash": "^4.17.21",
-    "typescript": "^4.7.4"
+    "unbuild": "^0.7.6"
   }
 }

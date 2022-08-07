@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import {numberType, check} from "./types";
+import {numberType, check} from "./check-types/index";
 
 export default function (array: any, checkKey: string | string[]) {
     let key = '';
