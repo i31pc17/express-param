@@ -1,6 +1,6 @@
 {
   "name": "@i31pc17/express-param",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "express param",
   "type": "module",
   "exports": {

@@ -4,4 +4,5 @@ export default function (value: any) {
     if (!match || match.length === 0 || match[0] !== value) {
         return false;
     }
+    return true;
 }
