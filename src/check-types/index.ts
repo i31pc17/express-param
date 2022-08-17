@@ -16,6 +16,9 @@ import enumType from "./enum";
 export const numberType = ['number', 'int', 'uint', 'float', 'ufloat'];
 
 export function check(type: string, value: any) {
+    if (value === null || value === undefined) {
+        return false;
+    }
     switch (type) {
         case 'string': return string(value);
         case 'number': return number(value);

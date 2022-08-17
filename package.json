@@ -1,6 +1,6 @@
 {
   "name": "@i31pc17/express-param",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "express param",
   "type": "module",
   "exports": {
@@ -24,7 +24,9 @@
   "license": "MIT",
   "devDependencies": {
     "@types/lodash": "^4.14.182",
-    "lodash": "^4.17.21",
     "unbuild": "^0.7.6"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
